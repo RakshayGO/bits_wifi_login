@@ -11,3 +11,5 @@ enter your credentials </br>
 shortcuts: </br>
   Windows : "Ctrl+Q" </br>
   Mac : "Command+B" </br>
+
+Author : [Anuj Gore](https://www.linkedin.com/in/anuj-gore-495250198/?originalSubdomain=in)
