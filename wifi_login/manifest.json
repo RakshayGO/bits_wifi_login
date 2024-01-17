@@ -1,0 +1,30 @@
+{
+  "name": "BITS Wi-Fi Login",
+  "description": "Login to BITS Wi-Fi",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "fav.png"
+  },
+  "icons": {
+    "16": "fav.png",
+    "32": "fav.png",
+    "64": "fav.png",
+    "128": "fav.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Q",
+        "mac": "Command+B"
+      }
+    }
+  }
+}
